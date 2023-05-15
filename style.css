@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+header{
+background-color: grey;
+width: 100%;
+}
+
+.links{
+    list-style-type: none;
+
+}
+
+li{
+    display: inline-block;
+    background-color:white;
+    padding: 0.3rem;
+    margin: 0.5rem;
+    margin-right: 30px;
+    border-radius: 10%;
+
+
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: 
+}
+
+.footer{
+    background-color: grey;
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+    position: absolute;
+    color: black;
+}
+/* imagen de index.html */
+
+main div{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    grid-template-rows: min-content min-content min-content;
+
+    grid-template-areas:
+    "... Limg"
+    "Stl Limg"
+    "... Limg"
+    ;
+}
+
+.LogoIndex{
+    grid-area: Limg;
+}
+
+.SubtituloIndex{
+    grid-area: Stl;
+    color: black;
+}
+
+.SubtituloIndex span{
+    border: 3px solid rgb(9, 5, 138);
+    border-radius: 50%;
+    padding: 2.2rem;
+}
+
+
+
+/* Codigo dirigido para Ventas.html Y alquileres.html */
+
+section{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    grid-template-rows: min-content min-content min-content;
+}
+
+.card{
+    margin-top: 2rem;
+    margin-left: 7rem;
+    width: 35rem;
+    border: 5px solid black;
+}
+
+.placeholder2{
+    border: 0.5px solid black;
+    margin: auto;
+    width: 15rem;
+    display: block;
+}
+
+.InformacionVentas{
+    text-align: center;
+
+}
+
+.InformacionVentasP{
+    padding: 1rem;
+text-align: center;
+color: White;
+background-color: black;
+font-size: 1.25rem;
+border: 3px solid black;
+}
+
+.LinkInfo{
+    margin-left: 15rem;
+    margin-bottom: 1rem;
+    width: 7rem;
+    color: Black;
+    border: 1px solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.LinkInfo:hover{
+    transition: .3s;
+    background-color: Black;
+    color: White;
+}
+
+/* codigo dirigido para quienes_somos.html */
+
+.img_quienes_somos{
+    border: 2px solid black;
+    margin: 2rem;
+    margin-left: 20rem;
+height: 40rem;
+}
+
+.SubtituloQS{
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    color: black;
+}
+
+.ParrafoQS{
+    position: absolute;
+    top: 39%;
+    left: 39%;
+}
+
+/* Codigo dirigido para contactanos.html */
+
+.img_contactanos{
+width: 20rem;
+margin: 5rem;
+margin-left: 7rem;
+}
+
+.SubtituloCT{
+position: absolute;
+    left: 45%;
+}
+
