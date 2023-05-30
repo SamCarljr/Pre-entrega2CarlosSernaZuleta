@@ -1,0 +1,29 @@
+main div{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    grid-template-rows: min-content min-content min-content;
+
+    grid-template-areas:
+    "... Limg"
+    "Stl Limg"
+    "... Limg"
+    ;
+}
+
+.LogoIndex{
+    grid-area: Limg;
+}
+
+.SubtituloIndex{
+    grid-area: Stl;
+    color: black;
+}
+
+.SubtituloIndex span{
+    border: 3px solid rgb(9, 5, 138);
+    border-radius: 50%;
+    padding: 2.2rem;
+}
+body{
+    background-color:grey;
+}
